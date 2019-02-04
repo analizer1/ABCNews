@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Max Lines before ellipsize-->
+    <integer name="regular_title_lines">3</integer>
+    <integer name="large_title_lines">4</integer>
+</resources>

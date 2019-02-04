@@ -1,0 +1,4 @@
+task testAll(dependsOn: ['check', 'lint', 'test']) {
+    group = 'custom_tasks'
+    description = "Run all tests"
+}

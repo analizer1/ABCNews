@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ABCNews</string>
+    <string name="retry">Retry</string>
+    <string name="feed_image_descriptor">feed image</string>
+</resources>
