@@ -19,4 +19,10 @@ class ErrorUtilTest {
         val t = Throwable()
         assertThat(t.getErrorMessage(), `is`("unknown error"))
     }
+
+    @Test
+    fun GivenNullThrowable_ReturnUnknownErrorMessage() {
+        val t = Throwable()
+        assertThat(t.getErrorMessage(), `is`("unknown error"))
+    }
 }
